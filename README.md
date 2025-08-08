@@ -19,26 +19,33 @@ DatadumpsteR is a  functional web-based file manager built with PHP, JavaScript,
 - **JavaScript** – Dynamic UI & AJAX requests  
 - **HTML & CSS** – Responsive frontend design
 
+## 📂 Folder Structure
+
+```
 project1/
 │
 ├── config/
-│ └── database.php # Database connection settings
+│   └── database.php               # Database connection settings
 │
 ├── main/
-│ ├── authenticate.php # Handles login authentication
-│ ├── check_session.php # Checks if the user is logged in
-│ ├── dashboard.js # Dashboard JavaScript (file handling, UI updates)
-│ ├── dashboard.php # Main dashboard UI
-│ ├── login.js # Login form handling
-│ ├── login.php # Login page UI
-│ ├── logout.php # Logs the user out
-│ ├── register.php # Handles user registration
-│ ├── signup.js # Signup form handling
-│ ├── signup.php # Signup page UI
-│ ├── styles.css # Project styling
-│ ├── upload.php # Handles file uploads
-│ ├── get_files.php # Returns list of uploaded files
-│ └── delete_file.php # Handles file deletion
-│ └── download_file.php # Handles file download
+│   ├── authenticate.php           # Handles login authentication
+│   ├── check_session.php          # Checks if the user is logged in
+│   ├── dashboard.js               # Dashboard JavaScript (file handling, UI updates)
+│   ├── dashboard.php              # Main dashboard UI
+│   ├── login.js                   # Login form handling
+│   ├── login.php                  # Login page UI
+│   ├── logout.php                 # Logs the user out
+│   ├── register.php               # Handles user registration
+│   ├── signup.js                  # Signup form handling
+│   ├── signup.php                 # Signup page UI
+│   ├── styles.css                 # Project styling
+│   ├── upload.php                 # Handles file uploads
+│   ├── get_files.php              # Returns list of uploaded files
+│   ├── delete_file.php            # Handles file deletion
+│   └── download_file.php          # Handles file downloads
 │
-└── uploads/ # Directory for storing uploaded files
+└── uploads/                       # Directory for storing uploaded files
+```
+
+
+
